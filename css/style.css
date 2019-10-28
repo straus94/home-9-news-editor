@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Proxima\ Nova\ Condensed\ Regular.otf);
+}
+@font-face {
+    font-family: 'Futura';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/FuturaPT-Heavy.woff);
+}
+
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.mainer {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 140px 70px 70px 70px;
+    background-color: #464f54;
+}
+.news {
+    background-color: white;
+}
+.create-news {
+    width: 70%;
+    float: right;
+    margin-top: -100px;
+}
+
+.editor {
+    background-color: black;
+    padding: 50px 0 50px 65px;
+}
+.editor .title {
+    color: #777777;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova';
+
+}
+.editor .editing {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    padding: 0 0 20px 0;
+    border-bottom: 3px solid #303030;
+}
+
+.tools {
+    background-color: #f1b82b;
+    font-size: 34px;
+    color: white;
+    padding: 20px 40px 20px 0;
+    width: 90%;
+    float: right;
+    /* border: 1px solid black; */
+}
+/* .tools .material-icons {
+    margin: 0 20px;
+    cursor: pointer;
+} */
+.tools button {
+    cursor: pointer;
+    border: none;
+    background-color: #f1b82b;
+    display: inline;
+    color: white;
+    outline: none;
+}
+
+.tools button:not(:focus) i:not(:hover) {
+    opacity: 0.5;
+}
+
+.article {
+    padding: 180px 120px 20px 120px
+}
+
+.article .author {
+    font-family: 'Proxima Nova';
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #b4b4b4;
+    letter-spacing: 5px;
+}
+
+.article h1 {
+    font-family: 'Futura';
+    font-size: 78px;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.article h2 {
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 0 60px 0;
+}
+.article p {
+    font-family: Georgia;
+    font-size: 26px;
+    color: black;
+    margin: 0 0 40px 0;
+    line-height: 40px;
+}
+.article p .talk {
+    font-style: italic;
+}
